@@ -1,0 +1,3 @@
+target 'ZYBannerViewDemo' do
+  pod 'ZYBannerView', :path => '../'
+end

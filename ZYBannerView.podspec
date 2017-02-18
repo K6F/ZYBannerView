@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'ZYBannerView'
-  s.version  = '1.1.1'
+  s.version  = '1.1.2'
   s.license  = 'MIT'
   s.summary  = 'A banner view used on iOS.'
   s.homepage = 'https://github.com/zzyspace/ZYBannerView'
@@ -14,7 +14,9 @@ Pod::Spec.new do |s|
   
   s.platform = :ios, '7.0'
   s.source_files = 'ZYBannerView/*'
-
+  s.resource_bundles = {
+    'ZYBannerView' => ['**/*.png']
+  }
   s.frameworks = 'Foundation', 'UIKit'
 
   s.requires_arc = true

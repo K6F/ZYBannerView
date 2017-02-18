@@ -24,8 +24,8 @@
         
         [self addSubview:self.arrowView];
         [self addSubview:self.label];
-        
-        self.arrowView.image = [UIImage imageNamed:@"ZYBannerView.bundle/banner_arrow.png"];
+        NSBundle *mBundle = [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"ZYBannerView.bundle"]];
+        self.arrowView.image = [UIImage imageNamed:@"banner_arrow.png" inBundle:mBundle compatibleWithTraitCollection:nil];
         self.state = ZYBannerFooterStateIdle;
     }
     return self;

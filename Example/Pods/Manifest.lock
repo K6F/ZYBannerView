@@ -1,0 +1,16 @@
+PODS:
+  - ZYBannerView (1.1.2)
+
+DEPENDENCIES:
+  - ZYBannerView (from `../`)
+
+EXTERNAL SOURCES:
+  ZYBannerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZYBannerView: 9e2df7c8ce7df74159fc91006f5705534803d9a5
+
+PODFILE CHECKSUM: 4185bde6658f45ad50e3d0352c634d38c71f401c
+
+COCOAPODS: 1.1.1

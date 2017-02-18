@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AA8FB4E1C0BDAEE0074F33C /* ZYBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA8FB461C0BDAEE0074F33C /* ZYBannerCell.m */; };
-		5AA8FB501C0BDAEE0074F33C /* ZYBannerFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA8FB491C0BDAEE0074F33C /* ZYBannerFooter.m */; };
-		5AA8FB521C0BDAEE0074F33C /* ZYBannerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5AA8FB4B1C0BDAEE0074F33C /* ZYBannerView.bundle */; };
-		5AA8FB531C0BDAEE0074F33C /* ZYBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA8FB4D1C0BDAEE0074F33C /* ZYBannerView.m */; };
+		28A2078E29262E063638D46F /* libPods-ZYBannerViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6894C53AFC26C318A4C60B71 /* libPods-ZYBannerViewDemo.a */; };
 		5ABD31391C1F0FFC004BB404 /* ad_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABD31361C1F0FFC004BB404 /* ad_0.jpg */; };
 		5ABD313A1C1F0FFC004BB404 /* ad_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABD31371C1F0FFC004BB404 /* ad_2.jpg */; };
 		5ABD313C1C1F1428004BB404 /* ad_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABD313B1C1F1428004BB404 /* ad_1.jpg */; };
@@ -35,13 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5AA8FB451C0BDAEE0074F33C /* ZYBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerCell.h; sourceTree = "<group>"; };
-		5AA8FB461C0BDAEE0074F33C /* ZYBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerCell.m; sourceTree = "<group>"; };
-		5AA8FB481C0BDAEE0074F33C /* ZYBannerFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerFooter.h; sourceTree = "<group>"; };
-		5AA8FB491C0BDAEE0074F33C /* ZYBannerFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerFooter.m; sourceTree = "<group>"; };
-		5AA8FB4B1C0BDAEE0074F33C /* ZYBannerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYBannerView.bundle; sourceTree = "<group>"; };
-		5AA8FB4C1C0BDAEE0074F33C /* ZYBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerView.h; sourceTree = "<group>"; };
-		5AA8FB4D1C0BDAEE0074F33C /* ZYBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerView.m; sourceTree = "<group>"; };
 		5ABD31361C1F0FFC004BB404 /* ad_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad_0.jpg; sourceTree = "<group>"; };
 		5ABD31371C1F0FFC004BB404 /* ad_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad_2.jpg; sourceTree = "<group>"; };
 		5ABD313B1C1F1428004BB404 /* ad_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad_1.jpg; sourceTree = "<group>"; };
@@ -60,6 +50,9 @@
 		5AD99F8F1C05C33800775D64 /* ZYBannerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYBannerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD99F941C05C33800775D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD99F951C05C33800775D64 /* ZYBannerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYBannerViewDemoTests.m; sourceTree = "<group>"; };
+		6894C53AFC26C318A4C60B71 /* libPods-ZYBannerViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYBannerViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BC58B375BF42EC25AAF2B9 /* Pods-ZYBannerViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYBannerViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYBannerViewDemo/Pods-ZYBannerViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FF0CAD5B5EEA145FCBA2C32C /* Pods-ZYBannerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYBannerViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYBannerViewDemo/Pods-ZYBannerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A2078E29262E063638D46F /* libPods-ZYBannerViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +74,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1626F83A33CEA5829CCD808D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95BC58B375BF42EC25AAF2B9 /* Pods-ZYBannerViewDemo.debug.xcconfig */,
+				FF0CAD5B5EEA145FCBA2C32C /* Pods-ZYBannerViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5AA5D1B71C15572B00617D71 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,27 +93,14 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		5AA8FB441C0BDAEE0074F33C /* ZYBannerView */ = {
-			isa = PBXGroup;
-			children = (
-				5AA8FB4C1C0BDAEE0074F33C /* ZYBannerView.h */,
-				5AA8FB4D1C0BDAEE0074F33C /* ZYBannerView.m */,
-				5AA8FB4B1C0BDAEE0074F33C /* ZYBannerView.bundle */,
-				5AA8FB451C0BDAEE0074F33C /* ZYBannerCell.h */,
-				5AA8FB461C0BDAEE0074F33C /* ZYBannerCell.m */,
-				5AA8FB481C0BDAEE0074F33C /* ZYBannerFooter.h */,
-				5AA8FB491C0BDAEE0074F33C /* ZYBannerFooter.m */,
-			);
-			path = ZYBannerView;
-			sourceTree = "<group>";
-		};
 		5AD99F6D1C05C33800775D64 = {
 			isa = PBXGroup;
 			children = (
-				5AA8FB441C0BDAEE0074F33C /* ZYBannerView */,
 				5AD99F781C05C33800775D64 /* ZYBannerViewDemo */,
 				5AD99F921C05C33800775D64 /* ZYBannerViewDemoTests */,
 				5AD99F771C05C33800775D64 /* Products */,
+				1626F83A33CEA5829CCD808D /* Pods */,
+				6732E943A8E1784D945CF62B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +157,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6732E943A8E1784D945CF62B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6894C53AFC26C318A4C60B71 /* libPods-ZYBannerViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AD99F991C05C33800775D64 /* Build configuration list for PBXNativeTarget "ZYBannerViewDemo" */;
 			buildPhases = (
+				CFDAF433094998463675C2DE /* [CP] Check Pods Manifest.lock */,
 				5AD99F721C05C33800775D64 /* Sources */,
 				5AD99F731C05C33800775D64 /* Frameworks */,
 				5AD99F741C05C33800775D64 /* Resources */,
+				6020DF145BCF6E64638C383F /* [CP] Embed Pods Frameworks */,
+				5CC18B87F7896062A01CB228 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +217,7 @@
 				TargetAttributes = {
 					5AD99F751C05C33800775D64 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = BP9RDLG8H5;
 					};
 					5AD99F8E1C05C33800775D64 = {
 						CreatedOnToolsVersion = 6.3;
@@ -252,7 +254,6 @@
 				5ABD31391C1F0FFC004BB404 /* ad_0.jpg in Resources */,
 				5ABD313C1C1F1428004BB404 /* ad_1.jpg in Resources */,
 				5AD99F8A1C05C33800775D64 /* LaunchScreen.xib in Resources */,
-				5AA8FB521C0BDAEE0074F33C /* ZYBannerView.bundle in Resources */,
 				5AD6986A1C1419AB00436603 /* NextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,17 +267,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CC18B87F7896062A01CB228 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYBannerViewDemo/Pods-ZYBannerViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6020DF145BCF6E64638C383F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYBannerViewDemo/Pods-ZYBannerViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDAF433094998463675C2DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AD99F721C05C33800775D64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5AD99F821C05C33800775D64 /* ViewController.m in Sources */,
-				5AA8FB531C0BDAEE0074F33C /* ZYBannerView.m in Sources */,
 				5AD99F7F1C05C33800775D64 /* AppDelegate.m in Sources */,
-				5AA8FB501C0BDAEE0074F33C /* ZYBannerFooter.m in Sources */,
 				5AD698691C1419AB00436603 /* NextViewController.m in Sources */,
-				5AA8FB4E1C0BDAEE0074F33C /* ZYBannerCell.m in Sources */,
 				5AD99F7C1C05C33800775D64 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,8 +449,10 @@
 		};
 		5AD99F9A1C05C33800775D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95BC58B375BF42EC25AAF2B9 /* Pods-ZYBannerViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BP9RDLG8H5;
 				INFOPLIST_FILE = ZYBannerViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -414,8 +462,10 @@
 		};
 		5AD99F9B1C05C33800775D64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0CAD5B5EEA145FCBA2C32C /* Pods-ZYBannerViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BP9RDLG8H5;
 				INFOPLIST_FILE = ZYBannerViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
